@@ -1,4 +1,4 @@
-package app.cadastro.data;
+package app.cadastro.model;
 
 public class Pessoa {
     private Long id;
