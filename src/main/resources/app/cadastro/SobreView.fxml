@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="393.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.cadastro.SobreController">
+   <children>
+      <VBox layoutX="52.0" layoutY="52.0" prefHeight="316.0" prefWidth="395.0" AnchorPane.bottomAnchor="79.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <Label text="Cadastro de Pessoas:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label />
+            <Label text="Versão: 1.0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label />
+            <Label text="Descrição:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label text="O Cadastro de Pessoas é uma aplicação JavaFX simples que permite aos usuários gerenciar informações pessoais, como nome, idade, CPF e email. Com esta aplicação, você pode criar, visualizar, atualizar e excluir registros de pessoas em um banco de dados simples O desenvolvimento foi realizado apenas por motivos de estudo" wrapText="true" />
+            <Label />
+            <Label text="Desenvolvedor:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label text="Rhama Krisner (Desenvolvedor Principal)" />
+            <Label />
+            <Label text="Licença e Créditos:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label text="- Este aplicativo é distribuído sob a Licença MIT" />
+            <Label text="- Utiliza a biblioteca JavaFX para a interface do usuário" />
+            <Label />
+         </children>
+      </VBox>
+      <Button fx:id="btnFechar" layoutX="322.0" layoutY="362.0" mnemonicParsing="false" onAction="#btnFecharOnClicked" text="Fechar" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>
