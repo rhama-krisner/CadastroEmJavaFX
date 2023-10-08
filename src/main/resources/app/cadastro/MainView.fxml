@@ -3,6 +3,7 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Pagination?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -53,6 +54,9 @@
                </children>
             </AnchorPane>
          </center>
+         <bottom>
+            <Pagination fx:id="pagination" prefHeight="26.0" prefWidth="660.0" BorderPane.alignment="CENTER" />
+         </bottom>
       </BorderPane>
    </children>
 </AnchorPane>

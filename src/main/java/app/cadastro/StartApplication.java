@@ -2,6 +2,7 @@ package app.cadastro;
 
 import javafx.application.Application;
 import javafx.fxml.FXML;
+import javafx.scene.control.Pagination;
 import javafx.stage.Stage;
 
 import java.io.IOException;
